@@ -124,7 +124,7 @@ body {
  }
 
  .breadcrumbs a:hover {
-     color: #FFC725;
+     color:#FBB731 ;
  }
 
  .breadcrumbs a::before {
@@ -245,7 +245,7 @@ body {
 .menu-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 51px 20px;
+   gap: 50px 20px;
    text-align: center;
    margin-bottom: 104px; 
 }
@@ -273,18 +273,17 @@ body {
 
 .menu-grid-title {
     color: #1B2A49;
-    margin-top: 0;
+    margin: 0;
     font-weight: 600;
     font-size: 30px;
-    margin-bottom: 8px;
 }
 
 .menu-grid-price {
     font-weight: 700;
     color: #979797;
     font-size: 20px;
-    margin-top: 9px;
-    margin-bottom: 23px;
+    margin-top: 8px;
+    margin-bottom: 22px;
 }
 
 .menu-grid-btn {
@@ -303,6 +302,7 @@ body {
     display: block;
     background-image: url(../images/kart-menu.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     width: 18px;
     height: 18px;  
 }
@@ -318,4 +318,75 @@ body {
 
 .menu-grid-text:hover {
     color: #FFFFFF;
+}
+
+.footer {
+    background: #1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 140px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+
+.footer-item {
+    flex: 0 0 auto;
+}
+
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    margin-top: 0px;
+}
+
+.footer-item li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.footer-tel ul{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FBB731;
+    margin-top: 0;
+}
+
+.footer-tel li {
+    margin-bottom: 12px;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer-list li a:hover{
+    color: #FBB731;
 }
