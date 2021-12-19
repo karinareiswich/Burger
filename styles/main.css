@@ -257,7 +257,9 @@ body {
    border-radius: 22px; 
    font-size: 15px;
    color: #443737;
-   appearance: none;
+   -webkit-appearance: none;
+      -moz-appearance: none;
+           appearance: none;
    flex-basis: 279px;
    background-image: url(../images/arrow.svg);
    background-size: 12.79px 7.75px;
