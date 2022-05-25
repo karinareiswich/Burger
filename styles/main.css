@@ -834,7 +834,7 @@ header {
     }
 
     .menu-other .menu-grid-cover {
-        height: 56vw;
+        height: 172px;
     }
     .menu-other {
         height: 110vw;
@@ -858,7 +858,7 @@ header {
         font-size: 15px;
     }
     .menu-other .menu-grid-item {
-        flex: 0 0 38vw;
+        flex: 0 0 173px;
     }
     .menu-grid-price {
         font-size: 16px;
