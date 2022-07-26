@@ -1,5 +1,10 @@
+
 body {
     font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #dedede;
 }
 
 .container {
@@ -7,10 +12,6 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-header {
-    border-bottom: 1px solid #dedede;
 }
 
 .header {
@@ -688,9 +689,22 @@ header {
 /* Responsive */
 
 @media (min-width: 1001px) {
+    .main {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .content-title {
+        font-size: 80px;
+    }
+    .content {
+        padding-left: 48px;
+    }    
     .footer-list + .footer-list-tel {
         display: none;
     }
+    main img {
+        width: auto;
+    height: 100%;}
 }
 
 @media (min-width: 766px) {
@@ -725,6 +739,7 @@ header {
         padding: 100px 40px 120px;
     }
     .menu-grid {
+        overflow-x: hidden;
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;
     }
